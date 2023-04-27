@@ -4,7 +4,7 @@ pipeline {
     stages{
         stage('Code'){
             steps {
-                git url: 'https://github.com/mayank-singh-care/food-app.git', branch: 'master'
+                git url: 'https://github.com/mayank-singh-care/food-app.git', branch: 'main'
             }
         }
         stage('Build and Test'){
